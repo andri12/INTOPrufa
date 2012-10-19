@@ -63,7 +63,7 @@ void spila( )
 {
 	int hruga[ 10 ];
 	cout << "*-------------------------------------------------------*" << endl;
-	cout << "                   NU SPILAR ANDRI NIM!!" << endl;
+	cout << "        NU SPILAR ANDRI MAR JORUNDSSON NIM!!" << endl;
 	cout << "*-------------------------------------------------------*" << endl;
 	cout << endl << endl;
 	cout << "Veljum med hve margar hrugur vid spilum. " << endl;
@@ -105,7 +105,8 @@ void hjalp( )
 	cout << "hrugunni en their mega aldrei taka ur fleiri en " << endl;
 	cout << "einni hrugu i einu.  Sa sem tekur sidustu eldspytuna " << endl;
 	cout << "ur sidustu hrugunni vinnur.  Gangi ykkur vel! " << endl << endl;
-	cout << "Sladu a einhvern lykil...ekki spirja hvada takka;) " << endl;
+	cout << "Sladu a einhvern lykil.." << endl;
+	cout << "Ekki spyrja hvada takka eins og Homer Simpsons ;) " << endl;
 	getchar( );
 }
 
@@ -214,7 +215,7 @@ void tolva( int* hruga )
 	hruga[ (hrugunumer) - 1 ] -= eldspytur;
 	if( !samtals( hruga ) )
 	{
-		cout << endl << "Eg vann nana bubu. Thad gengur bara betur naest!" << endl << endl;
+		cout << endl << "Eg vann! Thad gengur bara betur naest!" << endl << endl;
 		cout << "Sladu a einhvern lykil...   " << endl;
 		getchar( );
 	}
